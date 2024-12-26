@@ -14,10 +14,10 @@ client = OpenAI()
 
 # print(completion.choices[0].message)
 
-response = client.embeddings.create(
-    model="text-embedding-3-small",
-    input="The food was delicious and the waiter..."
-)
+# response = client.embeddings.create(
+#     model="text-embedding-3-small",
+#     input="The food was delicious and the waiter..."
+# )
 
-print(response)
+# print(response)
 
